@@ -1,0 +1,198 @@
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+    color: #333;
+}
+
+
+/* Header styling */
+
+header {
+    background: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+/* About section styling */
+
+#about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 20px;
+    border: 5px solid #ffffff;
+}
+
+.bio {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+/* Skills section styling */
+
+#skills {
+    background: linear-gradient(to bottom, #e04abb, #79376e);
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills li {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Projects section styling */
+
+#projects {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-card {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-card h2 {
+    margin-bottom: 10px;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Contact section styling */
+
+#contact {
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin: 10px 0;
+}
+
+
+/* Footer styling */
+
+footer {
+    background: linear-gradient(to right, #232526, #414345);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#certifications {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#certifications h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.certificate {
+    border: 5px solid #3494E6;
+    /* Border color */
+    border-radius: 15px;
+    /* Border radius */
+    overflow: hidden;
+    margin: 20px;
+    display: inline-block;
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+}
+
+.certificate p {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#Certifications {
+    background: linear-gradient(to right, #71e7eb, #1f3044);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+/* Responsive styling */
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    header p {
+        font-size: 1em;
+    }
+    #about img {
+        max-width: 100%;
+    }
+}
